@@ -155,14 +155,6 @@ Configuración del tema PrimeNG con tokens de diseño TPP para componentes como 
 | `red` | `50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950` |
 | `blue` | `50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950` |
 
-## Publicar nueva versión
-
-```bash
-# Actualiza la versión en package.json, luego:
-git tag v3.1.0
-git push origin v3.1.0
-```
-
 ## Actualización en proyectos consumidores
 
 Actualiza el tag en tu `package.json` y ejecuta `npm install`.
