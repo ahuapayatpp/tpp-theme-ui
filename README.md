@@ -14,14 +14,14 @@ Paquete centralizado de tokens de diseño, estilos y configuración de Tailwind 
 Puedes instalar esta biblioteca directamente desde GitHub:
 
 ```bash
-npm install github:zonikgraf/tpp-theme-ui
+npm install github:ahuapayatpp/tpp-theme-ui
 ```
 
 O agréguelo a su archivo `package.json`:
 
 ```json
 "dependencies": {
-  "tpp-theme-ui": "github:zonikgraf/tpp-theme-ui"
+  "tpp-theme-ui": "github:ahuapayatpp/tpp-theme-ui"
 }
 ```
 
