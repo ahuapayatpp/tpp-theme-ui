@@ -19,9 +19,9 @@
 
 @font-face {
   font-family: "CorporateSBQ";
-  src:  url("./assets/fonts/CorporateSBQ_Regular.otf") format("opentype"),
-        url("./assets/fonts/CorporateSBQ_Regular.woff2") format("woff2"),
-        url("./assets/fonts/CorporateSBQ_Regular.ttf") format("truetype");
+  src: url("../assets/fonts/CorporateSBQ_Regular.otf") format("opentype"),
+       url("../assets/fonts/CorporateSBQ_Regular.woff2") format("woff2"),
+       url("../assets/fonts/CorporateSBQ_Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -29,9 +29,9 @@
 
 @font-face {
   font-family: "CorporateSBQ";
-  src:  url("./assets/fonts/CorporateSBQ_Medium.otf") format("opentype"),
-        url("./assets/fonts/CorporateSBQ_Medium.woff2") format("woff2"),
-        url("./assets/fonts/CorporateSBQ_Medium.ttf") format("truetype");
+  src: url("../assets/fonts/CorporateSBQ_Medium.otf") format("opentype"),
+       url("../assets/fonts/CorporateSBQ_Medium.woff2") format("woff2"),
+       url("../assets/fonts/CorporateSBQ_Medium.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
   font-style: normal;
@@ -39,9 +39,9 @@
 
 @font-face {
   font-family: "CorporateSBQ";
-  src:  url("./assets/fonts/CorporateSBQ_Bold.otf") format("opentype"),
-        url("./assets/fonts/CorporateSBQ_Bold.woff2") format("woff2"),
-        url("./assets/fonts/CorporateSBQ_Bold.ttf") format("truetype");
+  src: url("../assets/fonts/CorporateSBQ_Bold.otf") format("opentype"),
+       url("../assets/fonts/CorporateSBQ_Bold.woff2") format("woff2"),
+       url("../assets/fonts/CorporateSBQ_Bold.ttf") format("truetype");
   font-weight: 900;
   font-display: swap;
   font-style: normal;
