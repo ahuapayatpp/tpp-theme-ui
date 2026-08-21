@@ -2,7 +2,7 @@
   "name": "tpp-theme-ui",
   "version": "3.0.0",
   "description": "Paquete centralizado de tokens de diseño, estilos y configuración de Tailwind CSS 3 y PrimeNG para optimizar el mantenimiento y consistencia visual en todos los microfrontends del ecosistema TPP.",
-  "author": "zonikgraf",
+  "author": "ahuapayatpp",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Tests passed\""
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zonikgraf/tpp-theme-ui.git"
+    "url": "git+https://github.com/ahuapayatpp/tpp-theme-ui.git"
   }
 }
