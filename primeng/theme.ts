@@ -11,7 +11,8 @@ export const themeTppConfig = {
       700: '#4E6D20', 
       800: '#344816', 
       900: '#1A240B', 
-      950: '#0F1607' },
+      950: '#0F1607'
+    },
     yellow: { 
       50: '#FBF6E6', 
       100: '#F5ECCC', 
@@ -69,8 +70,6 @@ export const themeTppConfig = {
     colorScheme: {
       light: {
         surface: {
-          0: '#ffffff',
-          25: '#F7F7F8',
           50: '#EFF0F1',
           100: '#DEE0E2',
           200: '#BDC2C6',
