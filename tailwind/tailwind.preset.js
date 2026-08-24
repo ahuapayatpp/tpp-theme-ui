@@ -16,8 +16,8 @@ module.exports = {
           950: 'var(--p-primary-950)',
         },
         'tpp-surface': {
-          0: 'var(--p-surface-0)',
-          25: 'var(--p-surface-25)',
+          0: '#ffffff',
+          25: '#EFF0F1',
           50: 'var(--p-surface-50)',
           100: 'var(--p-surface-100)',
           200: 'var(--p-surface-200)',
