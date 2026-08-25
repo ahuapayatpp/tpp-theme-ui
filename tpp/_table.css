@@ -55,6 +55,12 @@ tbody tr td,
 }
 
 @media (width >= 80rem) {
+  /*
+  Header sticky
+  .tpp-table-mobile .p-datatable-table-container {
+    overflow: initial !important;
+  }
+  */
   .tpp-table-mobile .p-datatable-table-container thead {
     position: sticky;
     top: 0;
