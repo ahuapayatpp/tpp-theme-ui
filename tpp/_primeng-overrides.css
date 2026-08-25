@@ -191,9 +191,10 @@
 }
 
 .p-tabs .p-tablist-tab-list {
-  border-bottom: 1px solid var(--p-primary-500);
-  background-color: transparent;
   gap: 0.5rem;
+  border-bottom-width: 1px;
+  border-color: var(--p-primary-500);
+  background-color: transparent;
 }
 
 .p-tabs .p-tabs-visor .p-tablist-tab-list {
