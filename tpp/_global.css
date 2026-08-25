@@ -54,3 +54,11 @@ body {
   letter-spacing: .35px;
   font-family: "CorporateSBQ", sans-serif;
 }
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
