@@ -107,6 +107,23 @@ export const appConfig: ApplicationConfig = {
   ]
 };
 ```
+## Configuración de Charts (Opcional)
+
+Si tu módulo usa gráficos con Chart.js, puedes reutilizar la configuración visual del tema TPP:
+
+```typescript
+import { COLORES, SHARED_TOOLTIP, SHARED_SCALES, BAR_PRESETS, MESES_LABELS } from 'tpp-theme-ui/charts';
+```
+
+| Exportación | Descripción |
+|-------------|-------------|
+| `COLORES` | Paleta de colores TPP para gráficos |
+| `SHARED_TOOLTIP` | Configuración compartida de tooltips |
+| `SHARED_SCALES` | Configuración de escalas X e Y |
+| `BAR_PRESETS` | Presets para gráficos de barras (vertical/horizontal) |
+| `MESES_LABELS` | Labels de meses en español (cortos y largos) |
+
+> **Nota:** Requiere `chart.js` y `chartjs-plugin-datalabels` como dependencias.
 
 ## Contenido del Paquete
 
