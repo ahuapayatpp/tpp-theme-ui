@@ -26,12 +26,34 @@ export const SHARED_TOOLTIP = {
   xAlign: 'center'
 };
 
-export const MESES_LABELS = {
-  short: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'],
-  long: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-} as const;
-
 export const SHARED_SCALES = {
   x: { ticks: { color: COLORES.text }, grid: { color: COLORES.border } },
   y: { ticks: { color: COLORES.text }, grid: { color: COLORES.border } },
+} as const;
+
+export const BAR_PRESETS = {
+  vertical: {
+    maintainAspectRatio: false,
+    plugins: {
+      datalabels: { display: false },
+      legend: { display: false },
+      tooltip: { ...SHARED_TOOLTIP },
+    },
+    scales: { ...SHARED_SCALES },
+  },
+  horizontal: {
+    indexAxis: 'y' as const,
+    maintainAspectRatio: false,
+    plugins: {
+      datalabels: { display: false },
+      legend: { display: false },
+      tooltip: { ...SHARED_TOOLTIP },
+    },
+    scales: { ...SHARED_SCALES },
+  },
+} as const;
+
+export const MESES_LABELS = {
+  short: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'],
+  long: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'],
 } as const;
