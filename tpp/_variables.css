@@ -14,4 +14,6 @@
   /* Icon size */
   --p-icon-size: 0.875rem;
 
+  /* Variable surface primeng */
+  --p-surface-25: #F7F7F8;
 }
