@@ -77,7 +77,6 @@ export const themeTppConfig = {
       light: {
         surface: {
           0:  '#ffffff',
-          25:  '#F7F7F8',
           50: '#EFF0F1',
           100: '#DEE0E2',
           200: '#BDC2C6',
