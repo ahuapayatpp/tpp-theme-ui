@@ -122,7 +122,7 @@ export const themeTppConfig = {
     },
     datatable: {
       headerCell: {
-        background: '{surface.25}',
+        background: '#F7F7F8',
         borderColor: '{surface.100}',
         sm: {
           padding: '.85rem .75rem',
@@ -134,11 +134,11 @@ export const themeTppConfig = {
         },
       },
       footerCell: {
-        background: '{surface.25}',
+        background: '#F7F7F8',
         borderColor: '{surface.100}',
       },
       row: {
-        hoverBackground: '{surface.25}',
+        hoverBackground: '#F7F7F8',
       },
     },
     tag: {
@@ -171,7 +171,7 @@ export const themeTppConfig = {
         light: {
           dropdown: {
             background: 'white',
-            hoverBackground: '{surface.25}',
+            hoverBackground: '#F7F7F8',
             activeBackground: '{surface.50}',
             color: '{surface.400}',
           },
