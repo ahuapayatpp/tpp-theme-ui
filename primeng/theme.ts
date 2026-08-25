@@ -1,6 +1,6 @@
 export const themeTppConfig = {
   primitive: {
-    green:  { 
+    green: { 
       50: '#F3F8EB', 
       100: '#E6F0D7', 
       200: '#CDE1AF', 
@@ -26,7 +26,7 @@ export const themeTppConfig = {
       900: '#292000', 
       950: '#15120B' 
     },
-    red:    { 
+    red: { 
       50: '#FCE8EC', 
       100: '#F8D0D8', 
       200: '#F1A1B1', 
@@ -39,7 +39,7 @@ export const themeTppConfig = {
       900: '#2C040C', 
       950: '#160206' 
     },
-    blue:   { 
+    blue: { 
       50: '#ECF4FF', 
       100: '#D7E8FF', 
       200: '#AFD1FF', 
@@ -67,9 +67,17 @@ export const themeTppConfig = {
       900: '#33160B',
       950: '#33160B',
     },
+    formField: {
+      paddingY: '0.4rem',
+      paddingX: '0.7rem',
+      sm: { fontSize: '0.75rem', paddingX: '0.6rem', paddingY: '0.25rem' },
+      lg: { fontSize: '1rem' },
+    },
     colorScheme: {
       light: {
         surface: {
+          0:  '#ffffff',
+          25:  '#F7F7F8',
           50: '#EFF0F1',
           100: '#DEE0E2',
           200: '#BDC2C6',
@@ -89,11 +97,7 @@ export const themeTppConfig = {
           borderColor: '{surface.100}',
           hoverBorderColor: '{surface.200}',
           placeholderColor: '{surface.300}',
-          paddingY: '0.4rem',
-          paddingX: '0.7rem',
           color: '{surface.500}',
-          sm: { fontSize: '0.75rem', paddingX: '0.6rem', paddingY: '0.25rem' },
-          lg: { fontSize: '1rem' },
           disabledBackground: '{surface.50}',
           focusBorderColor: '{surface.300}',
           invalidBorderColor: '{red.500}',
@@ -104,15 +108,15 @@ export const themeTppConfig = {
   },
   components: {
     button: {
+      root: {
+        raisedShadow: '0 3px 1px -2px rgba(157,163,169,0.10), 0 2px 2px 0 rgba(157,163,169,0.07), 0 1px 5px 0 rgba(157,163,169,0.06)',
+      },
       colorScheme: {
         light: {
           outlined: {
             secondary: {
               borderColor: '{surface.100}',
             },
-          },
-          root: {
-            raisedShadow: '0 3px 1px -2px rgba(157,163,169,0.10), 0 2px 2px 0 rgba(157,163,169,0.07), 0 1px 5px 0 rgba(157,163,169,0.06)',
           },
         },
       },
@@ -211,7 +215,13 @@ export const themeTppConfig = {
     tooltip: {
       root: {
         padding: '0.25rem 0.5rem',
-        background: '{surface.700}',
+      },
+      colorScheme: {
+        light: {
+          root: {
+            background: '{surface.700}',
+          },
+        },
       },
     },
     popover: {
