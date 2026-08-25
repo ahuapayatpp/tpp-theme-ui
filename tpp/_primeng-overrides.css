@@ -231,6 +231,7 @@
     border-color: var(--p-primary-500);
     background-color: white;
     color: var(--p-primary-500);
+    margin-bottom: -1px;
 }
 
 .p-tabs .p-tabpanels {
