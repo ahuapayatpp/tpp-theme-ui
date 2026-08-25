@@ -81,15 +81,15 @@ module.exports = {
 import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { providePrimeNG } from 'primeng/config';
-import Aura from '@primeuix/themes/aura';
-import { definePreset } from '@primeuix/themes';
-
-// Importa la configuración del tema TPP
-import { themeTppConfig } from 'tpp-theme-ui/primeng';
-
 import { routes } from './app.routes';
 
-// Define el tema con la configuración TPP
+// Importa el tema base Aura de Prime UIX
+import Aura from '@primeuix/themes/aura';
+// Importa la función para crear un preset de tema
+import { definePreset } from '@primeuix/themes';
+// Importa la configuración personalizada del tema TPP
+import { themeTppConfig } from 'tpp-theme-ui/primeng';
+// Crea el tema TPP combinando Aura con la configuración personalizada
 const themeTpp = definePreset(Aura, themeTppConfig);
 
 export const appConfig: ApplicationConfig = {
