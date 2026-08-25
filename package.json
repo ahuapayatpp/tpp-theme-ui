@@ -17,6 +17,7 @@
     "tpp",
     "tailwind",
     "primeng",
+    "charts",
     "assets"
   ],
   "peerDependencies": {
