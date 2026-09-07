@@ -76,4 +76,5 @@ table > tbody > tr:hover {
 
 .p-datatable tbody .p-datatable-frozen-column {
   background: #ffffff;
+  z-index: 1;
 }
