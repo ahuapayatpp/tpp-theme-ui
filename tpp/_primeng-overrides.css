@@ -130,7 +130,8 @@
   gap: 0;
 }
 
-.p-fileupload.p-fileupload-basic .filelabel {
+.p-fileupload.p-fileupload-basic .filelabel,
+.p-fileupload.p-fileupload-basic > span {
   padding: 0.5rem;
   border: 1px solid var(--p-surface-100);
   border-top-right-radius: 6px;
