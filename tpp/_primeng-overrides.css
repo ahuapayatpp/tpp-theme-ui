@@ -319,3 +319,5 @@
 .tpp-timeline .p-timeline-event-opposite {
   display: none;
 }
+
+.p-steppanel .p-motion { display: block; }
